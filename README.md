@@ -15,6 +15,19 @@ designed to be portable and efficient.
 
 This repository will contain my excersises and notes on Go.
 
+### Course
+
+My exersises will be based on
+["Let's Go" from Alex Edwards](https://lets-go.alexedwards.net/) and
+["Einführung in Go" from Andreas Schöpfer](https://www.udemy.com/course/einfuhrung-in-go/).
+
+### Project
+
+As my project to learn a new language, I have opted for a web application. It
+is somewhat a [pastebin](https://pastebin.com/index.php) clone. The idea is to
+write a prototype for a new [while-true-do.io](https://while-true-do.io/)
+application.
+
 ### Notes
 
 Notes and documentation can be found in the [docs/](docs/) directory. These will

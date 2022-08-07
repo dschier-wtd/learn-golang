@@ -1,6 +1,6 @@
 # Learn Go
 
-- [ ] Learn basics of Go
+- [x] Learn basics of Go
 - [ ] Learn about the Go standard library
 - [ ] Learn about fmt package
 - [ ] Learn about types and variables
