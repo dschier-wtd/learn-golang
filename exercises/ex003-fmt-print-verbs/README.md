@@ -1,4 +1,4 @@
-# Ex002
+# Ex003
 
 Learning about different ways to print variables.
 
