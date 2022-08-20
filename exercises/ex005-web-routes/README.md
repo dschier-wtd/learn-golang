@@ -14,3 +14,5 @@ The example code can be found in the [web.go](web.go) file.
 - the function is passed the request and response objects
 - the function can then do whatever it wants with the request and response
   objects
+- longer paths are handled first
+- request url paths are automatically sanitized (multiple slashes, dots, etc.)

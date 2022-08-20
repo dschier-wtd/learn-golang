@@ -1,6 +1,6 @@
-# Ex005
+# Ex006
 
-Learning about http and routing.
+Learning about http and notFound handling.
 
 ## Code
 
