@@ -40,9 +40,10 @@ func createArticle(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-  http.HandleFunc("/", home)
-  http.HandleFunc("/article/view", viewArticle)
-  http.HandleFunc("/article/create", createArticle)
+  mux := http.NewServeMux()
+  mux.HandleFunc("/", home)
+  mux.HandleFunc("/article/view", viewArticle)
+  mux.HandleFunc("/article/create", createArticle)
 
   log.Print("Starting server on :4000")
   err := http.ListenAndServe(":4000", nil)
